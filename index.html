@@ -9,60 +9,52 @@
 
 <body class="page">
 <header class="header page__header">
-    <nav class="header__left-side ">
-        <!--        Menu-->
-        <ul class="buttons">
-            <li class=" buttons__item ">
-                <button type="button" class="button__area nav__button">
+    <nav class="header__left-side">
+        <ul class="buttons buttons--header">
+            <li class="buttons__item buttons__item--header">
+                <button type="button" class="button__area nav__button nav__button--header">
                 </button>
             </li>
-            <!--            line-->
             <li class="separator header__separator header__elem--hidden--mob"
                 aria-hidden="true">
-                <!--            Logo-->
-            <li class=" buttons__item ">
-                <a href="" title="#" class="logo">
-                    <img src="./images/logo.svg" alt="logo image">
+            <li class=" buttons__item buttons__item--header">
+                <a href="" title="#" class="logo logo--header">
+                    <img src="./images/logo.svg" alt="logo image" class="logo__image logo__image--header">
                 </a>
             </li>
         </ul>
     </nav>
-    <!--    Line-->
+
     <div class="separator header__separator header__elem header__elem--hidden--tab header__elem--hidden--desk"
          aria-hidden="true"></div>
 
     <ul class="buttons header__right-side">
-        <!--        Phone-->
         <li class=" buttons__item header__elem header__elem--hidden--mob ">
-            <button class=" button__area phone__button" type="button" title="call button">
+            <button class=" button__area phone__button phone__button--header" type="button" title="call button">
             </button>
         </li>
-        <!--        Chat-->
         <li class=" buttons__item header__elem header__elem--hidden--mob">
-            <button class=" button__area chat__button" type="button" title="chat button">
+            <button class=" button__area chat__button chat__button--header" type="button" title="chat button">
             </button>
         </li>
-        <!--        Profile-->
         <li class=" buttons__item header__elem header__elem--hidden--mob ">
-            <button class="button__area profile__button" type="button" title="profile button">
+            <button class="button__area profile__button profile__button--header" type="button" title="profile button">
             </button>
         </li>
-        <!--        Line-->
         <li class="separator header__separator header__elem header__elem--hidden--mob"
             aria-hidden="true">
         <li>
-        <!--         Repair-->
         <li class=" buttons__item buttons__item--after-separator header__elem ">
-            <button class="button__area repair__button" type="button" title="repair button">
+            <button class="button__area repair__button repair_button--header" type="button" title="repair button">
             </button>
         </li>
-        <!--        CheckStatus-->
         <li class=" buttons__item header__elem ">
-            <button class="button__area check-status__button" type="button" title="check status button">
+            <button class="button__area check-status check-status_button--header" type="button" title="check status button">
             </button>
         </li>
     </ul>
 </header>
+
 
 <main class="main page__main">
     <div class="main__title-wrapper">
@@ -81,7 +73,7 @@
                 <span class="header__text">
                     Статус ремонта
                 </span>
-                <button class="button__area check-status__button" type="button" title="check status button">
+                <button class="button__area check-status" type="button" title="check status button">
                 </button>
             </li>
         </ul>

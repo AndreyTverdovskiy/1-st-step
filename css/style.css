@@ -203,7 +203,7 @@ body {
     background-image: url('../images/icons/repair.svg');
 }
 
-.check-status__button {
+.check-status{
     background-image: url('../images/icons/checkstatus.svg');
 }
 
